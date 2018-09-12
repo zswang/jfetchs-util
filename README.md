@@ -10,3 +10,4 @@ jfetchs-util
 MIT © [zswang](http://weibo.com/zswang)
 
 [npm-url]: https://npmjs.org/package/jfetchs-util
+[npm-image]: https://badge.fury.io/js/jfetchs-util.svg
