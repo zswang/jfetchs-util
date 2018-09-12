@@ -1,0 +1,36 @@
+{
+  "name": "jfetchs-util",
+  "version": "0.0.1",
+  "description": "Utilities for jfetchs cache",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zswang/jfetchs-util.git"
+  },
+  "author": {
+    "name": "zswang",
+    "url": "http://weibo.com/zswang"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zswang/jfetchs-util/issues"
+  },
+  "homepage": "https://github.com/zswang/jfetchs-util#readme",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-typescript": "^3.1.6",
+    "merge2": "^1.1.0",
+    "typescript": "^2.0.3"
+  },
+  "scripts": {
+    "_update_version": "node version.js",
+    "_dist": "gulp dist",
+    "dist": "npm run _update_version && npm run _dist"
+  },
+  "files": [
+    "lib"
+  ]
+}
